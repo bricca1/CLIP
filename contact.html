@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Coronavirus</title>
+    <title>CLIP</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,500|Dosis:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -36,12 +35,12 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
           
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Adivinanza</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- EN  <!-- END nav -->
+  
   
   <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
@@ -49,7 +48,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center">
-              <h2 class="heading">CONTACTANOS</h2>
+              <h2 class="heading">¡A JUGAR!</h2>
             </div>
           </div>
         </div>
@@ -62,27 +61,18 @@
     <div class="container">
       <div class="row block-9">
         <div class="col-md-6 pr-md-5">
-          <form action="#">
+          <form action="#" method="POST">
             <div class="form-group">
-              <input type="text" class="form-control px-3 py-3" placeholder="Nombre">
+              <label><b>¿Que figura es la que aparece en la imagen de nuestro inicio?</b></label>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control px-3 py-3" placeholder=" Email">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control px-3 py-3" placeholder="DNI">
-            </div>
-            <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control px-3 py-3" placeholder="Ingrese consulta"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Enviar" class="btn btn-primary py-3 px-5">
+              <input type="submit" id="RES" onclick="trivia()" value="JUGAR" class="btn btn-primary py-3 px-5">
             </div>
           </form>
         
         </div>
 
-        <div class="col-md-6" id="map"></div>
+        
       </div>
     </div>
   </div>
@@ -129,7 +119,7 @@
               <img src="images/img_4.jpg" alt="" class="img-fluid">
             </figure>
             <div class="text">
-              <h3 class="heading"><a href="#">50 Nuevos casos</a></h3>
+              <h3 class="heading"><a href="#">Claves para ser feliz</a></h3>
               <div class="meta">
                 <div><a href="#"><span class="icon-calendar"></span> 10/09/2020</a></div>
                 <div><a href="#"><span class="icon-person"></span> Admin</a></div>
@@ -177,7 +167,7 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
-
+  <script src="js/adivinanza.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   
   <script src="js/aos.js"></script>
